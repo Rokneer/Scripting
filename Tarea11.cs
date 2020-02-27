@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace Tarea10
+namespace Tarea11
 {
     class Program
     {
         static void Main()
         {
             double dmax = 0;
-            double[] CoordX = { 0, 2, 3, 7};
-            double[] CoordY = { 0, 1, 5, 6}; 
+            double[] CoordX = {0, 2, 3, 7};
+            double[] CoordY = {0, 1, 5, 6}; 
 
             double[] distancias = new double[6];
             distancias[0] = Math.Sqrt(Math.Pow(CoordY[0] - CoordY[1], 2)) + Math.Pow(CoordX[0] - CoordX[1], 2);
